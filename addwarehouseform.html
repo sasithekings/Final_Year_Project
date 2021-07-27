@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <style>
+        body{
+            background-image: url(images/19.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+        }
+    .setb{
+            background-image:url('titlebg.jpg');
+            background-size:100%;
+        }
+    .hed{
+        font-size: 40px;
+        font-weight: bold;00
+    }
+    .loginbox {
+        font-size: 18px;
+        font-weight: bold;
+
+    }
+    .lout {
+            text-align: right;
+            text-decoration:none;
+            font-weight: bold;
+            background-color: rgb(107, 107, 190);
+            color:white;
+            padding:5px;
+            border-radius: 5px;
+            margin-right: 20px;
+        }
+        .col{
+            position: relative;
+            left:410px;
+        }
+        .lb{
+            position: relative;
+            bottom: 38px;
+            left:100px;
+        }
+
+    .col input[type="text"],[type="number"]{
+        border:none;
+        border-bottom:2px solid blue;
+        background: transparent;
+        outline:none;
+        width: 30%;
+    }
+    .lf{
+        color:rgb(0, 0, 0);
+        font-size: x-large;
+
+    }
+  </style>
+    <title>Add warehouse</title>
+  </head>
+  <body>
+
+
+    <div class="container-fluid ">
+        <div class='row'>
+            <div class="col-10">
+            <center>
+                <l class="hed" >Add warehouse</l>
+            </center>
+            </div>
+            <div class="col-2">
+            <center>
+                <br>
+                <a href="websitehomepage.html" class="lout">Back</a>
+            </center>
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <img src="images/add.jpg" class="float-left" width="70%" heigth="50%" >
+            </div>
+            <div class="col-8">
+                <div class="text-right">
+  	                <p style="font-weight: bolder; font-size: larger;"> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                
+            <br>
+            <form action="addwarehouseinsert.php" method="POST" class="loginbox" target="result">
+                <l class="lf">Warehouse name</l><br>
+                <input type="text" name="warehousename" placeholder="Enter warehouse name"><br><br>
+                <l class="lf">Crops</l><br>
+                <input type="text" name="crops" placeholder="Enter Crops"><br><br>
+                <l class="lf">Address</l><br>
+                <input type="text" name="address" placeholder="Enter Address"><br><br>
+                <l class="lf">City</l><br>
+                <input type="text" name="city" placeholder="Enter city"><br><br>
+                <l class="lf">Phno</l><br>
+                <input type="text" name="phno" placeholder="Enter Phno"><br><br>
+                <l class="lf">Quantity</l><br>
+                <input type="text" name="quantity" placeholder="Enter Quantity"><br><br>
+                <l class="lf">Price</l><br>
+                <input type="number" name="price" placeholder="Enter Price"><br><br>
+
+                <input type="submit" name="submit" class="btn btn-primary" value="Submit">
+                <a href="comparewarehousepage.html" class="lout" style="background-color: yellow; color: black; position: relative; left: 50px;">Compare Warehouse</a>
+            </form>
+           
+              
+            </div>
+        </div>
+    </div>
+   
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  

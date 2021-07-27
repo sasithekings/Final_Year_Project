@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <style>
+        body{
+            background-image: url(images/21.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+        
+        }
+    .setb{
+            background-image:url('titlebg.jpg');
+            background-size:100%;
+        }
+    .hed{
+        font-size: 40px;
+        font-weight: bold;00
+    }
+    .lout {
+            text-align: right;
+            text-decoration:none;
+            font-weight: bold;
+            background-color: rgb(107, 107, 190);
+            color:white;
+            padding:5px;
+            border-radius: 5px;
+            margin-right: 20px;
+        }
+        .col{
+            position: relative;
+            left:410px;
+        }
+
+    .col input[type="text"],[type="number"]{
+        border:none;
+        border-bottom:2px solid blue;
+        
+        outline:none;
+    }
+    .lb{
+            position: relative;
+            bottom: 38px;
+            left:70px;
+        }
+
+        .text-right{
+            color:white;
+        }
+
+  </style>
+    <title>Search Warehouse</title>
+  </head>
+  <body>
+
+
+    <div class="container-fluid ">
+        <div class='row'>
+            <div class="col-10">
+            <center>
+                <l class="hed">Search Warehouse</l>
+            </center>
+            </div>
+            <div class="col-2">
+            <center>
+                <br>
+                <a href="websitehomepage.html" class="lout">Back</a>
+            </center>
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <img src="images/search.png" class="float-left" width="70%" heigth="50%" >
+            </div>
+            <div class="col-8">
+                <div class="text-right">
+  	                <p style="color: rgb(0, 0, 0); font-weight: bolder; font-size: larger;"> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+            
+            <form action="searchwarehousedata.php" method="POST" class="loginbox">
+                <l class="lf" style="color:rgb(0, 0, 0); font-weight: bolder; font-size: x-large;">Enter city</l><br><br>
+                <input type="text" name="city" placeholder="Enter city"><br><br>
+               <br>
+                <input type="submit" name="submit" class="btn btn-primary" value="Search">
+            </form>
+                
+              
+            </div>
+        </div>
+    </div>
+
+    
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
+

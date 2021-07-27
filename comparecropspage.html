@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <style>
+        body{
+            background-image: url(images/17.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+        }
+    .setb{
+            background-image:url('titlebg.jpg');
+            background-size:100%;
+        }
+    .hed{
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .lout {
+            text-align: right;
+            text-decoration:none;
+            font-weight: bold;
+            background-color: rgb(255, 255, 255);
+            color:rgb(0, 0, 0);
+            padding:5px;
+            border-radius: 5px;
+            margin-right: 20px;
+            position: relative;
+            right: 50px;
+        }
+        .col{
+            position: relative;
+            left:410px;
+        }
+
+    .col input[type="text"],[type="number"]{
+        border:none;
+        border-bottom:2px solid blue;
+        background: transparent;
+        outline:none;
+    }
+    .col input[type="submit"]{
+        position: relative;
+        left: 20px;
+    }
+    
+
+  </style>
+    <title>Compare Crops</title>
+  </head>
+  <body>
+      <center>
+        <h1 style="color: rgb(0, 0, 0); font-weight: bolder;">Compare Crops Prices</h1>
+
+      </center>
+
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+
+
+                <form action="comparecrops.php" method="POST" >
+                    <l class="lf" style="color: rgb(0, 0, 0); font-weight: bolder; font-size: 30px;">Crop Name</l><br>
+                <input type="text" name="cropname" placeholder="Enter cropname "><br><br><br>
+                    <input type="submit" name="submit" class="btn btn-danger"value="Compare price">
+                
+                </form>
+                <br><br>
+            
+              
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid ">
+
+        <center>
+            <br>
+            <a href="sellcropsform.html" class="lout">Go back</a>
+        </center>
+    
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
